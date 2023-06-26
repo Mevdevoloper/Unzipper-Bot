@@ -1,0 +1,10 @@
+# render.yml
+
+services:
+  - name: unzipper-bot
+    github:
+      branch: main
+      deploy_on_push: true
+    env:
+      - key: 6048927479:AAFCBpoDfaTg9ogW72RWAT9JK3jGlAFWzqA
+        from_secret: bot_token
